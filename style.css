@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: #115B97;
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  max-width: 500px;
+}
+
+a {
+  color: #000000;
+}
+
+.section {
+  margin: 0 6rem;
+  padding: 2rem 4rem;
+  background: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+.indent {
+  padding-left: 2rem;
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+  margin-top: 5rem;
+}
+
+.wireframes {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 850px) {
+    img {
+      max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+  img {
+    max-width: 250px;
+  }
+
+  .section {
+    margin: 0;
+  }
+}
